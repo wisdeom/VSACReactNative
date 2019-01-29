@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-echo "Branch $BUILD_SOURCEBRANCHNAME"
+echo "Repro-> BUILD_SOURCEBRANCHNAME:Branch $BUILD_SOURCEBRANCHNAME"
+echo "Workaround -> Branch $BUILD_SOURCEBRANCHNAME | sed 's/refs\/heads\///'"
